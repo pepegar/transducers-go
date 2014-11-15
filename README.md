@@ -12,7 +12,7 @@ package main
 import (
 	"fmt"
 
-	t "github.com/pepegar/transducers"
+	t "github.com/pepegar/transducers-go"
 )
 
 func mapping(item interface{}) interface{} {
