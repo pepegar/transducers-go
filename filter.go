@@ -1,6 +1,6 @@
 package transducers
 
-func Filter(f func(interface{}) bool) CollToColl {
+func Filter(f func(interface{}) bool) func([]interface{}) []interface{} {
 	return func(collection []interface{}) []interface{} {
 		var result []interface{}
 
